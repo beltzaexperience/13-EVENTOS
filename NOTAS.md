@@ -15,6 +15,9 @@ https://beltzaexperience.github.io/13-RITUALES/
 ├── logo-p13-circle.svg            ← logo circular P13 (favicon + intro)
 ├── beltza-puno.png                ← puño Beltza
 ├── rastros-jupiter-05-26.html     ← cartel Mayo 2026
+├── chicatequila.jpg                ← foto cartel Verano Fest
+├── 29-08-26-verano-fest.html       ← cartel Verano Fest, 29/08/26
+├── verano-fest-29-08-26-IMPRIMIR.jpg ← cartel completo, versión para imprenta (300dpi)
 └── (futuros carteles .html)
 ```
 
@@ -96,6 +99,7 @@ Intro: `#82C8E5` · Cartel: `#142240` · Fondo cartel web: `#0F4336`
 ## Carteles en el grid (orden HTML, más reciente primero)
 | data-fecha | Título | Link |
 |---|---|---|
+| 2026-08 | Rastros de Júpiter · Verano Fest | `13-RITUALES/29-08-26-verano-fest.html` |
 | 2026-05 | Rastros de Júpiter | `13-RITUALES/rastros-jupiter-05-26.html` |
 | 2026-01 | Rastros de Júpiter | beltzablog/740 |
 | 2025-12 | Amairu Bizi · Ripe Red Apple | beltzablog/737 |
@@ -127,6 +131,15 @@ Intro: `#82C8E5` · Cartel: `#142240` · Fondo cartel web: `#0F4336`
 ## Cartel rastros-jupiter-05-26.html
 - Fondo web: `#0F4336` inline en `<style>` del `<head>` — sin `link` a `style.css`
 - `image.jpg` desde mismo repo · viewport `width=1100` + `scaleCartel()`
+
+## Cartel 29-08-26-verano-fest.html
+- Mismo template que el cartel de mayo 2026 (fondo `#0F4336` inline, sin `link` a `style.css`)
+- Evento: VERANO FEST · 29/08/26 · 11H TO 20H
+- Cartel: CHICA TEQUILA · DJ (link IG `la_chica_tequila`) + DOPAMINE · LIVE (sin link — pendiente confirmar redes)
+- `chicatequila.jpg` desde mismo repo — versión definitiva tratada: foto original (3024×4032) + 8 cápsulas DOPAMINE compuestas a mano (7 flotando estilo collage sobre las baldas desenfocadas de discos, respetando cara/cubetas/vestido/disco sujetado; 1 integrada como tatuaje real en el antebrazo, sin sombra, siguiendo el ángulo exacto del brazo) · viewport `width=1100` + `scaleCartel()`
+- Tarjeta en `index.html` events-grid usa la versión Flickr de la foto tratada: `https://live.staticflickr.com/65535/55463708569_7021e7d973_k.jpg` ("CHICA TEQUILA + DOPAMINE")
+- **Subir a `13-RITUALES`:** el JPG completo `verano-fest-29-08-26-IMPRIMIR.jpg` (cartel entero con foto tratada, 3300×6753px/300dpi) + la nueva `chicatequila.jpg` tratada — NO la foto suelta de Chica Tequila
+- Pendiente: si Dopamine confirma Bandcamp/redes, enlazar igual que Chica Tequila
 
 ---
 
